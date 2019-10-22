@@ -1,0 +1,30 @@
+.spisoc{
+    &__content{
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    max-height: 100px;
+    max-width: 400px;
+    }
+    &__text{
+        font-size:20px;
+    font-weight:700;
+    line-height:27px;
+    font-family:'Raleway', sans-serif;
+    text-align:center;
+    display:inline-block;
+    padding:20px;
+    flex-grow: 1;
+    align-self: center;
+    }
+    &__img{
+        border-left:1px solid black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    min-height: 100px;
+    }
+}

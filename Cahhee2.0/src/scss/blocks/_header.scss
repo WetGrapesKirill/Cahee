@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 232px;
+    &__center{
+        text-align: center;
+    }
+    &__centertitle{
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 25px;
+    display: block;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    }
+    &__centertext{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    display: block;
+    padding: 25px 300px 50px;
+    }
+     @media screen and (max-width: 575px){
+         &__centertext{
+             padding:0;
+         }
+     }
+    @media screen and (max-width: 767px){
+       &__centertext{
+             padding:25px 50px;;
+         }
+    }
+    @media screen and (max-width: 991px){
+       &__centertext{
+             padding:25px 100px 50px;;
+         }
+    }
+}

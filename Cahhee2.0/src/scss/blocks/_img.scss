@@ -1,0 +1,31 @@
+#img{
+    background-image:url(../img/1.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#img2{
+    background-image:url(../img/2.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#img3{
+    background-image:url(../img/3.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.img{ 
+    &__galery{
+        overflow: hidden;
+    }
+    &__padding{
+        padding-left:0px ;
+    }
+    &__galery3{
+        margin-top:8px ;
+    }
+    @media screen and (max-width: 575px){
+        &__kartinka{
+        max-width: 100%;
+        }
+    }
+}

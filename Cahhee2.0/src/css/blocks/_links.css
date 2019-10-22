@@ -1,0 +1,7 @@
+.links {
+  display: block; }
+  .links__text {
+    padding-bottom: 10px; }
+  @media screen and (max-width: 767px) {
+    .links {
+      margin-bottom: 50px; } }

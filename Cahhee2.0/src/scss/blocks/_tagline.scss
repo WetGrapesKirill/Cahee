@@ -1,0 +1,35 @@
+.tagline{
+    
+    &__fl{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    &__subtitle{
+        display: flex;
+        font-family: 'ralewayheavy',sans-serif;
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 1;
+        flex-wrap: nowrap;
+        padding-bottom: 15px;
+    }
+    &__text{
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 1;
+        padding:15px 0px 35px 0px;
+    }
+    &__bg2{
+        font-size: 90px;
+        font-weight: 700;
+        line-height: 1;
+        margin-bottom: 20px;
+    }
+    &__bg2text{
+        font-size:17px;
+        font-weight:300;
+        line-height:1;
+        padding-top:24px;
+    }
+}

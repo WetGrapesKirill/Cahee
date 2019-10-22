@@ -1,0 +1,33 @@
+.form{
+   
+    &__row{
+        flex-direction: column;
+    }
+    &__input{
+    min-height: 50px;
+    margin-bottom:15px ;
+    width: 100%;
+    background-color: hsla(180, 61%, 69%, 0.658);
+    color: white;
+    border: none;
+    padding:15px 18px;
+    opacity: 0.7;}
+    &__input::-moz-placeholder{color: white;}
+    &__input::-webkit-input-placeholder { color:white;}
+    &__input:-ms-input-placeholder {color:white;}
+    &__input::-ms-input-placeholder{color:white;}
+    &__input::placeholder{color:white;}
+    &__textarea{
+        min-height: 250px;
+    }
+    &__input--button{
+    margin-top:15px;
+    }
+    &__input:focus{
+    opacity: 1;
+    border-left: 5px solid #355b82;
+    }
+    &__input--button:hover{
+    opacity: 1;
+    }
+}

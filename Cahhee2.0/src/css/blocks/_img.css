@@ -1,0 +1,27 @@
+#img {
+  background-image: url(../img/1.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#img2 {
+  background-image: url(../img/2.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#img3 {
+  background-image: url(../img/3.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.img__galery {
+  overflow: hidden; }
+
+.img__padding {
+  padding-left: 0px; }
+
+.img__galery3 {
+  margin-top: 8px; }
+
+@media screen and (max-width: 575px) {
+  .img__kartinka {
+    max-width: 100%; } }

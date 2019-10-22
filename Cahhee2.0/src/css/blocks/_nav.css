@@ -1,0 +1,99 @@
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: -5px; }
+
+.nav__burger {
+  font-size: 48px;
+  width: 42px;
+  height: 42px;
+  display: block;
+  position: relative;
+  z-index: 2; }
+
+.nav__burger > .fa-times {
+  display: none; }
+
+.nav__checkbox {
+  display: none; }
+
+.nav__checkbox:checked + .nav__burger > .fa-times {
+  display: block; }
+
+.nav__checkbox:checked + .nav__burger > .fa-hamburger {
+  display: none; }
+
+.nav__link {
+  color: #262626;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px; }
+
+.nav__link:hover {
+  position: relative; }
+
+.nav__link:hover:before {
+  content: '';
+  display: block;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  background-color: #ff6033;
+  bottom: 25px; }
+
+.nav__burger {
+  width: 42px;
+  height: 42px;
+  border: 2px solid transparent;
+  margin-right: 20px; }
+
+.nav__icon {
+  color: #262626;
+  font-size: 25px; }
+
+@media screen and (max-width: 767px) {
+  .nav__block {
+    display: contents; }
+  .nav__list {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #5585a2;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: ease .3s;
+    -o-transition: ease .3s;
+    transition: ease .3s; }
+  .nav__item {
+    width: 100%;
+    border-top: 1px solid white;
+    margin: 0; }
+  .nav__link {
+    line-height: 42px;
+    text-align: center;
+    display: block; }
+  .nav__link:before {
+    display: none !important; }
+  .nav__checkbox:checked + .nav__burger + .nav__list {
+    padding-top: 160px;
+    max-height: 450px; } }
+
+@media screen and (max-width: 991px) {
+  .nav__list {
+    padding-top: 32px; } }
+
+@media screen and (max-width: 1099px) {
+  .nav__list {
+    padding-top: 32px; } }

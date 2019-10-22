@@ -1,0 +1,7 @@
+.input {
+  width: 100%; }
+  .input__subscribe {
+    border: 1px solid #262626;
+    padding: 19px 14px; }
+  .input__subscribe:focus {
+    border: 1px solid #96b92c; }

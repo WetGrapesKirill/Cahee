@@ -1,0 +1,29 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 232px; }
+  .header__center {
+    text-align: center; }
+  .header__centertitle {
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 25px;
+    display: block;
+    padding-bottom: 25px;
+    margin: 0 auto; }
+  .header__centertext {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    display: block;
+    padding: 25px 300px 50px; }
+  @media screen and (max-width: 575px) {
+    .header__centertext {
+      padding: 0; } }
+  @media screen and (max-width: 767px) {
+    .header__centertext {
+      padding: 25px 50px; } }

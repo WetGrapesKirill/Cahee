@@ -1,0 +1,16 @@
+.time{
+    width: 60px;
+    height: 60px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 20px;
+    background-color: rgba(38, 38, 38, 0.767);
+    &in{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 8px;
+    }
+}

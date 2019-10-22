@@ -1,0 +1,144 @@
+*{
+    transition: all .1s ease-in;
+}
+
+body{
+    color: black;
+    font-family: 'Raleway',sans-serif;
+    a{
+        text-decoration: none;
+    }
+}
+
+.section01{
+    width: 100%;
+    padding-bottom: 280px;
+    padding-top: 68px;
+    @media screen and (max-width: 767px){
+        &{
+            padding-bottom:120px;
+        }
+    }
+}
+.section02{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    color: white;
+    padding: 182px 0px 220px 0;
+    @media screen and (max-width: 767px){
+         &{color: black;}
+     }
+  
+}   
+.about{
+    width: 100%;
+    background-image:url(/Cahhee2.0/img/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 0;
+    margin: 0 0;
+    @media screen and (max-width: 575px){
+        &{
+            background-image: none;
+            background-color: #f9f8fb;
+        }
+    }
+    @media screen and (max-width: 767px){
+        &{
+            background-size: auto;
+        }
+    }
+    @media screen and (max-width: 991px){
+        &{background-size:auto;}
+    }
+    @media screen and (max-width: 1099px){
+        &{background-size:auto;}
+    }
+}
+.bg2{width: 100%;
+    background-image: url(../img/about.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0;
+    margin: 0 0;
+    @media screen and (max-width: 575px){
+        &{
+            background-image: none;
+            background-color: #00bdbd;
+        }
+    }   
+      
+}
+.services{
+    background-image: url(../img/services.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    &__container{
+        padding-top:180px;
+        padding-bottom: 270px;
+    }
+    @media screen and (max-width: 575px){
+        &{
+            background-image: none;
+            background-color: #70bfff;
+        }
+         &__container{
+            padding-bottom: 120px;
+         }
+    }
+    @media screen and (max-width: 767px){
+        &__container{
+            padding-top: 90px;
+            padding-bottom: 120px;
+        }
+    }
+}
+.gallery {
+    background-color: rgb(255, 233, 47);
+    padding-top: 222px;
+    padding-bottom: 120px;
+    @media screen and (max-width: 575px){
+        padding-bottom: 120px;
+    }
+}
+.subscribe{
+    background-image:url(../img/bg.png);
+    background-position:center;
+    background-size:cover;
+    padding-top:122px;
+    padding-bottom:162px;
+    @media screen and (max-width: 575px){
+        &{
+            background-image: none;
+            background-color: #ffffffff;
+        }
+    }
+}
+.section__blog{
+    background-color: #b07cf7;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    @media screen and (max-width: 575px){
+        padding-bottom: 120px;
+    }
+}
+.contact{
+    background-image: url(../img/contact.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 122px;
+    @media screen and (max-width: 575px){
+        &{
+            background-image: none;
+            background-color: #4287b5;
+            color: white;
+        }
+    }    
+}

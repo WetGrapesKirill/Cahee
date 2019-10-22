@@ -1,0 +1,26 @@
+.blog{
+    &__content{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 15px 30px 15px;
+    font-family: 'Raleway', sans-serif;
+    height: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+    &__hover:hover{
+    box-shadow: 0 9px 15px rgba(0, 0, 0, 0.5);
+    }
+    @media screen and (max-width: 575px){
+        &__hover{
+            margin-top: 15px;
+        }
+    }
+    @media screen and (max-width: 767px){
+        &__hover{
+            margin-top: 15px;
+        }
+    }
+}

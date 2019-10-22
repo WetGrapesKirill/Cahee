@@ -1,0 +1,29 @@
+.zagolovok {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+  padding-top: 186px;
+  padding-left: 200px; }
+  @media screen and (max-width: 575px) {
+    .zagolovok {
+      font-size: 50px;
+      padding: 0; } }
+  @media screen and (max-width: 767px) {
+    .zagolovok {
+      padding-left: 0;
+      padding-bottom: 50px; } }
+  @media screen and (max-width: 991px) {
+    .zagolovok {
+      padding: 0;
+      margin-bottom: 50px; } }
+  @media screen and (max-width: 991px) {
+    .zagolovok {
+      padding: 0;
+      margin-bottom: 50px; } }
+  @media screen and (max-width: 1099px) {
+    .zagolovok {
+      padding-top: 0;
+      margin-bottom: 50px; } }

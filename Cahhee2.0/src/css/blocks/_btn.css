@@ -1,0 +1,66 @@
+.btn {
+  width: 200px;
+  height: 55px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  text-align: center; }
+  .btn__link {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    color: white;
+    display: block;
+    width: 200px;
+    height: 55px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .btn__about {
+    background-color: #ff6033; }
+  .btn__about:hover {
+    background-color: white;
+    color: #ff6033; }
+  .btnabout:hover {
+    color: #ff6033; }
+  .btn__galery {
+    background-color: #5585a2; }
+  .btn__galery:hover {
+    background-color: white; }
+  .btngalery:hover {
+    color: #5585a2; }
+  .btn__padding {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .btn__subscribe {
+    background-color: #96b92c; }
+    @media screen and (max-width: 767px) {
+      .btn__subscribe {
+        margin-top: 50px; } }
+  .btn__subscribe:hover {
+    color: #96b92c;
+    background-color: white; }
+  .btn__blog {
+    background-color: #f72b3b; }
+  .btn__blog:hover {
+    background-color: white; }
+  .btnblog:hover {
+    color: #f72b3b; }
+  .btn__gavno {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }

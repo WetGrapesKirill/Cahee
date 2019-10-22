@@ -1,0 +1,71 @@
+.btn{
+    width: 200px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    
+    &__link{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    color: white;
+    display: block;
+    width: 200px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    &__about{
+        background-color: #ff6033;
+    }
+    &__about:hover{
+        background-color: white;
+        color:#ff6033;
+    }
+    &about:hover{
+        color:#ff6033;
+    }
+    &__galery{
+        background-color: #5585a2;   
+    }
+    &__galery:hover{
+        background-color: white; 
+    }
+    &galery:hover{
+        color:#5585a2;
+    }
+    &__padding{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    &__subscribe{
+        background-color: #96b92c;
+        @media screen and (max-width: 767px){
+            &{
+            margin-top: 50px;
+
+            }
+        }
+    }
+    &__subscribe:hover{
+        color:#96b92c ;
+        background-color:white ;
+    }
+    &__blog{
+        background-color:#f72b3b;
+    }
+    &__blog:hover{
+        background-color:white;
+    }
+    &blog:hover{
+        color:#f72b3b ;
+    }
+    &__gavno{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
