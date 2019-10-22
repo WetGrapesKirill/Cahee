@@ -3134,17 +3134,21 @@ html {
     font-size: 17px;
     font-weight: 300;
     line-height: 25px;
-    display: block;
-    padding: 25px 300px 50px; }
+    display: block; }
   @media screen and (max-width: 575px) {
     .header__centertext {
-      padding: 0; } }
-  @media screen and (max-width: 767px) {
+      padding: 0; }
+    .header__centertitle {
+      font-size: 60px; } }
+  @media screen and (min-width: 767px) {
     .header__centertext {
       padding: 25px 50px; } }
-  @media screen and (max-width: 991px) {
+  @media screen and (min-width: 768px) {
     .header__centertext {
       padding: 25px 100px 50px; } }
+  @media screen and (min-width: 992px) {
+    .header__centertext {
+      padding: 25px 300px 50px; } }
 
 .nav__list {
   display: -webkit-box;
@@ -3238,11 +3242,7 @@ html {
     padding-top: 160px;
     max-height: 450px; } }
 
-@media screen and (max-width: 991px) {
-  .nav__list {
-    padding-top: 32px; } }
-
-@media screen and (max-width: 1099px) {
+@media screen and (min-width: 768px) {
   .nav__list {
     padding-top: 32px; } }
 
@@ -3464,9 +3464,6 @@ body {
     justify-content: center; }
   .btn__subscribe {
     background-color: #96b92c; }
-    @media screen and (max-width: 767px) {
-      .btn__subscribe {
-        margin-top: 50px; } }
   .btn__subscribe:hover {
     color: #96b92c;
     background-color: white; }
@@ -3484,6 +3481,14 @@ body {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center; }
+  @media screen and (max-width: 767px) {
+    .btn__center {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; } }
 
 .logo {
   font-size: 50px;
@@ -3616,6 +3621,9 @@ body {
     padding: 19px 14px; }
   .input__subscribe:focus {
     border: 1px solid #96b92c; }
+  @media screen and (max-width: 767px) {
+    .input__subscribe {
+      margin-bottom: 50px; } }
 
 #img {
   background-image: url(../img/1.png);

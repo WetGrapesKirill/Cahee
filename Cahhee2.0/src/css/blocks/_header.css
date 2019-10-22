@@ -19,11 +19,18 @@
     font-size: 17px;
     font-weight: 300;
     line-height: 25px;
-    display: block;
-    padding: 25px 300px 50px; }
+    display: block; }
   @media screen and (max-width: 575px) {
     .header__centertext {
-      padding: 0; } }
-  @media screen and (max-width: 767px) {
+      padding: 0; }
+    .header__centertitle {
+      font-size: 60px; } }
+  @media screen and (min-width: 767px) {
     .header__centertext {
       padding: 25px 50px; } }
+  @media screen and (min-width: 768px) {
+    .header__centertext {
+      padding: 25px 100px 50px; } }
+  @media screen and (min-width: 992px) {
+    .header__centertext {
+      padding: 25px 300px 50px; } }

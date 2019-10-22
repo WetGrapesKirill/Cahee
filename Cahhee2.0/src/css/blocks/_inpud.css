@@ -5,3 +5,6 @@
     padding: 19px 14px; }
   .input__subscribe:focus {
     border: 1px solid #96b92c; }
+  @media screen and (max-width: 767px) {
+    .input__subscribe {
+      margin-bottom: 50px; } }

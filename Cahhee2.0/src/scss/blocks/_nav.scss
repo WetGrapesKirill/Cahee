@@ -120,12 +120,13 @@
           max-height: 450px;
         }
     }
-    @media screen and (max-width: 991px){
-      &__list{
-            padding-top: 32px;
-      }
-    }
-    @media screen and (max-width: 1099px){
+    // @media screen and (max-width: 991px){
+    //   &__list{
+    //         padding-top: 32px;
+    //   }
+    // }
+    
+    @media screen and (min-width: 768px){
       &__list{
             padding-top: 32px;
       }

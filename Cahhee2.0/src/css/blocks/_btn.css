@@ -44,9 +44,6 @@
     justify-content: center; }
   .btn__subscribe {
     background-color: #96b92c; }
-    @media screen and (max-width: 767px) {
-      .btn__subscribe {
-        margin-top: 50px; } }
   .btn__subscribe:hover {
     color: #96b92c;
     background-color: white; }
@@ -64,3 +61,11 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center; }
+  @media screen and (max-width: 767px) {
+    .btn__center {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; } }

@@ -8,5 +8,10 @@
     &__subscribe:focus{
     border: 1px solid #96b92c;
     }
+    @media screen and (max-width: 767px){
+            &__subscribe{
+            margin-bottom: 50px;
+            }
+        }
 
 }

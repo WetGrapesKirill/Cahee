@@ -18,21 +18,29 @@
     font-weight: 300;
     line-height: 25px;
     display: block;
-    padding: 25px 300px 50px;
+    
     }
      @media screen and (max-width: 575px){
          &__centertext{
              padding:0;
          }
+         &__centertitle{
+            font-size: 60px;
+         }
      }
-    @media screen and (max-width: 767px){
+    @media screen and (min-width: 767px){
        &__centertext{
              padding:25px 50px;;
          }
     }
-    @media screen and (max-width: 991px){
+    @media screen and (min-width: 768px){
        &__centertext{
              padding:25px 100px 50px;;
+         }
+    }
+    @media screen and (min-width: 992px){
+        &__centertext{
+            padding: 25px 300px 50px;
          }
     }
 }
