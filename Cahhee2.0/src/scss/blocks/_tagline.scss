@@ -2,8 +2,7 @@
     
     &__fl{
         display: flex;
-        flex-direction: column;
-    
+        flex-direction: column; 
     }
     &__subtitle{
         display: flex;
@@ -12,13 +11,13 @@
         font-weight: 800;
         line-height: 1;
         flex-wrap: nowrap;
-        padding-bottom: 15px;
+        padding-bottom: 8px;
     }
     &__text{
         font-size: 17px;
         font-weight: 300;
         line-height: 1;
-        padding:15px 0px 35px 0px;
+        padding: 16px 0px 28px 0px;
     }
     &__bg2{
         font-size: 90px;
@@ -31,5 +30,8 @@
         font-weight:300;
         line-height:1;
         padding-top:24px;
+    }
+    &__subscribe{
+        margin-bottom:15px ;
     }
 }

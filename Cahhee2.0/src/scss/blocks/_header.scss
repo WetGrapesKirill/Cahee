@@ -1,7 +1,7 @@
 .header{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 232px;
+    margin-bottom: 242px;
     &__center{
         text-align: center;
     }
@@ -10,7 +10,7 @@
     font-weight: 700;
     line-height: 25px;
     display: block;
-    padding-bottom: 25px;
+    padding-bottom: 36px;
     margin: 0 auto;
     }
     &__centertext{
@@ -18,7 +18,12 @@
     font-weight: 300;
     line-height: 25px;
     display: block;
-    
+    }
+    &__blog{
+        margin-bottom: 26px;
+    }
+    &__contact{
+        margin-bottom: 24px;
     }
      @media screen and (max-width: 575px){
          &__centertext{
@@ -40,7 +45,7 @@
     }
     @media screen and (min-width: 992px){
         &__centertext{
-            padding: 25px 300px 50px;
+            padding: 25px 300px 21px;
          }
     }
 }

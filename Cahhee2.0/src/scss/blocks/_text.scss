@@ -2,6 +2,10 @@
     font-size: 16px;
     font-weight: 300;
     line-height: 25px;
+    &__link{
+        margin-bottom: 10px;
+    }
+    
     @media screen and (max-width: 767px){
         &{
             font-size: 14px;

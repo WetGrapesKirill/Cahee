@@ -17,13 +17,13 @@
   line-height: 1;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  padding-bottom: 15px; }
+  padding-bottom: 8px; }
 
 .tagline__text {
   font-size: 17px;
   font-weight: 300;
   line-height: 1;
-  padding: 15px 0px 35px 0px; }
+  padding: 16px 0px 28px 0px; }
 
 .tagline__bg2 {
   font-size: 90px;
@@ -36,3 +36,6 @@
   font-weight: 300;
   line-height: 1;
   padding-top: 24px; }
+
+.tagline__subscribe {
+  margin-bottom: 15px; }

@@ -5,7 +5,7 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-bottom: 232px; }
+  margin-bottom: 242px; }
   .header__center {
     text-align: center; }
   .header__centertitle {
@@ -13,13 +13,17 @@
     font-weight: 700;
     line-height: 25px;
     display: block;
-    padding-bottom: 25px;
+    padding-bottom: 36px;
     margin: 0 auto; }
   .header__centertext {
     font-size: 17px;
     font-weight: 300;
     line-height: 25px;
     display: block; }
+  .header__blog {
+    margin-bottom: 26px; }
+  .header__contact {
+    margin-bottom: 24px; }
   @media screen and (max-width: 575px) {
     .header__centertext {
       padding: 0; }
@@ -33,4 +37,4 @@
       padding: 25px 100px 50px; } }
   @media screen and (min-width: 992px) {
     .header__centertext {
-      padding: 25px 300px 50px; } }
+      padding: 25px 300px 21px; } }

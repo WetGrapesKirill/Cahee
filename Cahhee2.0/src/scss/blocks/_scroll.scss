@@ -1,0 +1,9 @@
+.scroll{
+    display: block;
+    &__img{
+        border-radius: 15px;
+    }
+    &__img:hover{
+        background-color: #ff6033;
+    }
+}

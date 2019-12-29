@@ -7,11 +7,12 @@
     min-height: 50px;
     margin-bottom:15px ;
     width: 100%;
-    background-color: hsla(180, 61%, 69%, 0.658);
+    background-color: #80e0e0a8;
     color: white;
     border: none;
     padding:15px 18px;
-    opacity: 0.7;}
+    opacity: 0.7;
+    border-left: 5px solid #80e0e0a8;}
     &__input::-moz-placeholder{color: white;}
     &__input::-webkit-input-placeholder { color:white;}
     &__input:-ms-input-placeholder {color:white;}

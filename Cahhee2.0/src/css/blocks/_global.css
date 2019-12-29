@@ -10,9 +10,7 @@ body {
     text-decoration: none; }
 
 .section01 {
-  width: 100%;
-  padding-bottom: 280px;
-  padding-top: 68px; }
+  width: 100%; }
   @media screen and (max-width: 767px) {
     .section01 {
       padding-bottom: 120px; } }
@@ -32,18 +30,18 @@ body {
   -ms-flex-align: end;
   align-items: flex-end;
   color: white;
-  padding: 182px 0px 220px 0; }
+  padding: 182px 0px 186px 0; }
   @media screen and (max-width: 767px) {
     .section02 {
       color: black; } }
 
 .about {
+  padding-top: 54px;
+  padding-bottom: 64px;
   width: 100%;
-  background-image: url(/Cahhee2.0/img/back.png);
+  background-image: url(../img/back.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  padding: 0 0;
   margin: 0 0; }
   @media screen and (max-width: 575px) {
     .about {
@@ -79,7 +77,7 @@ body {
   background-position: center; }
   .services__container {
     padding-top: 180px;
-    padding-bottom: 270px; }
+    padding-bottom: 130px; }
   @media screen and (max-width: 575px) {
     .services {
       background-image: none;
@@ -93,8 +91,8 @@ body {
 
 .gallery {
   background-color: #ffe92f;
-  padding-top: 222px;
-  padding-bottom: 120px; }
+  padding-top: 123px;
+  padding-bottom: 112px; }
   @media screen and (max-width: 575px) {
     .gallery {
       padding-bottom: 120px; } }
@@ -103,8 +101,8 @@ body {
   background-image: url(../img/bg.png);
   background-position: center;
   background-size: cover;
-  padding-top: 122px;
-  padding-bottom: 162px; }
+  padding-top: 140px;
+  padding-bottom: 170px; }
   @media screen and (max-width: 575px) {
     .subscribe {
       background-image: none;
@@ -113,7 +111,7 @@ body {
 .section__blog {
   background-color: #b07cf7;
   color: white;
-  padding-top: 100px;
+  padding-top: 120px;
   padding-bottom: 120px; }
   @media screen and (max-width: 575px) {
     .section__blog {
@@ -124,7 +122,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 122px; }
+  padding-top: 122px;
+  padding-bottom: 22px; }
   @media screen and (max-width: 575px) {
     .contact {
       background-image: none;

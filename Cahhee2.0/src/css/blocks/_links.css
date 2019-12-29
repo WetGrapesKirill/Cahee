@@ -1,7 +1,19 @@
 .links {
-  display: block; }
+  display: block;
+  position: relative;
+  top: -1%; }
   .links__text {
-    padding-bottom: 10px; }
+    font-family: 'Raleway',sans-serif;
+    line-height: 25px;
+    font-size: 17px;
+    font-weight: 700; }
+  .links__contact {
+    font-family: ' Raleway',sans-serif;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 300;
+    white-space: nowrap;
+    color: black; }
   @media screen and (max-width: 767px) {
     .links {
       margin-bottom: 50px; } }
